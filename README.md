@@ -1,9 +1,8 @@
 # AntiIllegal-Bukkit
 
-![Java](https://img.shields.io/badge/Java-21-blue) 
-![Bukkit](https://img.shields.io/badge/Bukkit-Api%201.21-yellow)
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![API-Version](https://img.shields.io/badge/api--version-1.21-lightgrey.svg)
+![Java](https://img.shields.io/badge/Java-17-blue) 
+![Version](https://img.shields.io/badge/version-1.1.0-yellow.svg)
+![API-Version](https://img.shields.io/badge/api--version-1.13-lightgrey.svg)
 
 AntiIllegal-Bukkit is a Minecraft plugin designed to monitor and manage illegal items and enchantments on your server. It helps maintain fair play by automatically reverting illegal items and notifying administrators.
 
