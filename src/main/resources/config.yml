@@ -1,0 +1,24 @@
+# Configuration file for AntiIllegal Bukkit plugin
+
+# List of item lores that are exempt from being marked as illegal
+exempt_item_lore:
+  - "SpecialItemLore1"
+  - "SpecialItemLore2"
+
+# List of items to monitor
+monitored_items:
+  - DIAMOND_SWORD
+  - GOLDEN_APPLE
+
+# List of enchantments to monitor with their max levels
+monitored_enchantments:
+  sharpness: 5
+  protection: 4
+  efficiency: 5
+  unbreaking: 3
+
+# Discord webhook URL for sending notification logs
+discord_webhook_url: "https://discord.com/api/webhooks/your-webhook-id/your-webhook-token"
+
+# Optional: Discord role ID to ping in the messages
+discord_role_id: "your-discord-role-id"

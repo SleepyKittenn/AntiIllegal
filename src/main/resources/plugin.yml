@@ -1,0 +1,26 @@
+name: AntiIllegal-Bukkit
+version: 1.0.0
+main: live.amsleepy.antiillegalbukkit.AntiIllegal_Bukkit
+api-version: 1.21
+commands:
+  antiillegal:
+    description: Manage monitored items, enchantments, and lores.
+    usage: |
+      /<command> reload
+      /<command> lore <exempt|unexempt|list> <lore>
+      /<command> item <monitor|unmonitor> <item>
+      /<command> enchantments <monitor|unmonitor> <enchantment> [maxlevel]
+    aliases: [ai]
+permissions:
+  antiillegal.reload:
+    description: Allows reloading the AntiIllegal plugin configuration
+    default: op
+  antiillegal.lore:
+    description: Allows managing lores for the AntiIllegal plugin
+    default: op
+  antiillegal.item:
+    description: Allows managing items for the AntiIllegal plugin
+    default: op
+  antiillegal.enchantments:
+    description: Allows managing enchantments for the AntiIllegal plugin
+    default: op
